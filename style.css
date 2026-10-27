@@ -1,0 +1,803 @@
+body {
+  font-family: "Tahoma", sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #b8860b, #ffd700);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  background: #444;
+  color: #ffd700;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+section {
+  padding: 40px;
+  background: white;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #b8860b;
+  text-align: center;
+}
+
+.service-box {
+  background: #eee;
+  border: 2px solid #b8860b;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+  background: #fff8dc;
+}
+
+button {
+  background: #ffd700;
+  color: #444;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #b8860b;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery img {
+  border: 3px solid #b8860b;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.testimonial {
+  background: #f9f9f9;
+  border-left: 5px solid #ffd700;
+  margin: 20px;
+  padding: 20px;
+  font-style: italic;
+}
+#pricing {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-box {
+  background: #eee;
+  border: 2px solid #b8860b;
+  border-radius: 10px;
+  padding: 30px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.pricing-box h3 {
+  color: #b8860b;
+}
+
+.pricing-box h4 {
+  font-size: 24px;
+  color: #444;
+  margin: 15px 0;
+}
+
+.pricing-box button {
+  background: #ffd700;
+  color: #444;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pricing-box button:hover {
+  background: #444;
+  color: white;
+}
+
+.pricing-box:hover {
+  transform: scale(1.05);
+  background: #fff8dc;
+}
+
+.featured {
+  background: #444;
+  color: #ffd700;
+  border: 3px solid #ffd700;
+}
+#pricing {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-box {
+  background: #444; /* رمادي غامق */
+  color: #ffd700;   /* زهبي */
+  border: 3px solid #ffd700;
+  border-radius: 10px;
+  padding: 30px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.pricing-box h3 {
+  margin-bottom: 10px;
+}
+
+.pricing-box p {
+  margin-bottom: 20px;
+}
+
+.pricing-box button {
+  background: #ffd700;
+  color: #444;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pricing-box button:hover {
+  background: #b8860b;
+  color: white;
+}
+
+.price {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  display: none; /* مخفي لحد ما يضغط */
+}
+#contact {
+  text-align: center;
+  padding: 60px 20px;
+  background: #444; /* رمادي غامق */
+  color: #ffd700;   /* زهبي */
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact input, 
+#contact textarea {
+  padding: 12px;
+  border: 2px solid #ffd700;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#contact button {
+  background: #ffd700;
+  color: #444;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#contact button:hover {
+  background: #b8860b;
+  color: white;
+}
+
+#formResponse {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#banner {
+  background: linear-gradient(90deg, #b8860b, #ffd700); /* تدرج زهبي */
+  color: #444;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  animation: slideIn 2s ease-out;
+}
+
+.banner-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  animation: fadeIn 3s ease-in;
+}
+
+.banner-content button {
+  background: #444;
+  color: #ffd700;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.banner-content button:hover {
+  background: #222;
+  color: white;
+}
+
+/* حركات */
+@keyframes slideIn {
+  from { transform: translateY(-100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+#offers {
+  text-align: center;
+  padding: 60px 20px;
+  background: #444;
+  color: #ffd700;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.offers-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.offer-box {
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.offer-box:hover {
+  transform: scale(1.05);
+  background: #555;
+}
+
+.offer-box h3 {
+  margin-bottom: 10px;
+}
+
+.offer-box p {
+  margin-bottom: 15px;
+}
+
+.offer-box button {
+  background: #ffd700;
+  color: #444;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.offer-box button:hover {
+  background: #b8860b;
+  color: white;
+}
+
+.offer-details {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  display: none;
+}
+#team {
+  text-align: center;
+  padding: 60px 20px;
+  background: #444;
+  color: #ffd700;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.team-member img {
+  border-radius: 50%;
+  border: 3px solid #ffd700;
+  margin-bottom: 10px;
+}
+
+.team-member:hover {
+  transform: scale(1.1);
+  background: #555;
+}
+
+#social {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 50px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+#testimonials {
+  text-align: center;
+  padding: 60px 20px;
+  background: #444; /* رمادي غامق */
+  color: #ffd700;   /* زهبي */
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-box {
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.testimonial-box img {
+  border-radius: 50%;
+  border: 3px solid #ffd700;
+  margin-bottom: 10px;
+}
+
+.testimonial-box:hover {
+  transform: scale(1.1);
+  background: #555;
+}
+
+.testimonial-box p {
+  font-style: italic;
+  color: #ffd700;
+}
+#services {
+  text-align: center;
+  padding: 60px 20px;
+  background: #444; /* رمادي غامق */
+  color: #ffd700;   /* زهبي */
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-box img {
+  border-radius: 50%;
+  border: 3px solid #ffd700;
+  margin-bottom: 10px;
+}
+
+.service-box:hover {
+  transform: scale(1.1);
+  background: #555;
+}
+
+.service-box p {
+  color: #ffd700;
+}
+#articles {
+  padding: 60px 20px;
+  background: #fff;
+  margin: 40px auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#articles h2 {
+  text-align: center;
+  color: #b8860b; /* زهبي */
+  margin-bottom: 40px;
+}
+
+.article-box {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-left: 5px solid #ffd700;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.article-box h3 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.article-box p {
+  line-height: 1.8;
+  color: #333;
+  font-size: 16px;
+  text-align: justify; /* يخلي الكلام عريض ومنسق */
+}
+#articles {
+  text-align: center;
+  padding: 60px 20px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.articles-container {
+  display: flex;
+  flex-direction: column; /* يخليهم تحت بعض */
+  gap: 20px;
+}
+
+.article-box {
+  background: #444; /* رمادي */
+  color: black;     /* الكلام أسود */
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;      /* ياخد العرض كله */
+  text-align: left; /* يخلي الكلام مرتب */
+  transition: transform 0.3s, background 0.3s, color 0.3s;
+}
+
+.article-box h3 {
+  margin-bottom: 10px;
+}
+
+.article-box p {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.article-box:hover {
+  transform: scale(1.02);
+  background: #ffd700; /* يتحول لزهبي عند المرور */
+  color: black;        /* الكلام يفضل أسود */
+}
+#blog {
+  padding: 60px 20px;
+  background: #444; /* رمادي */
+  color: black;     /* الكلام أسود */
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+#blog h2 {
+  text-align: center;
+  color: #ffd700; /* زهبي */
+  margin-bottom: 40px;
+}
+
+.blog-post {
+  display: flex;
+  align-items: flex-start;
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.blog-post img {
+  width: 250px;
+  height: auto;
+  border-right: 2px solid #ffd700;
+}
+
+.blog-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.blog-content h3 {
+  margin-bottom: 15px;
+  color: #ffd700;
+}
+
+.blog-content p {
+  line-height: 1.8;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.blog-post:hover {
+  background: #ffd700; /* يتحول لزهبي عند المرور */
+  transform: scale(1.02);
+}
+
+.blog-post:hover p,
+.blog-post:hover h3 {
+  color: black; /* الكلام يبقى أسود */
+}
+#latest-news {
+  text-align: center;
+  padding: 60px 20px;
+  background: #444; /* رمادي */
+  color: black;     /* الكلام أسود */
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+#latest-news h2 {
+  color: #ffd700; /* زهبي */
+  margin-bottom: 40px;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column; /* الأخبار تحت بعض */
+  gap: 20px;
+}
+
+.news-box {
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.news-box h3 {
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.news-box p {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.news-box .date {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+}
+
+.news-box:hover {
+  background: #ffd700; /* يتحول لزهبي عند المرور */
+  transform: scale(1.02);
+}
+
+.news-box:hover h3,
+.news-box:hover p {
+  color: black; /* الكلام يبقى أسود */
+}
+#faq {
+  text-align: center;
+  padding: 60px 20px;
+  background: #444; /* رمادي */
+  color: black;     /* الكلام أسود */
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+#faq h2 {
+  color: #ffd700; /* زهبي */
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column; /* الأسئلة تحت بعض */
+  gap: 20px;
+}
+
+.faq-box {
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.faq-box h3 {
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.faq-box p {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.faq-box:hover {
+  background: #ffd700; /* يتحول لزهبي عند المرور */
+  transform: scale(1.02);
+}
+
+.faq-box:hover h3,
+.faq-box:hover p {
+  color: black; /* الكلام يبقى أسود */
+}
+.chat-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; /* مهم علشان يظهر فوق كل حاجة */
+}
+
+#chatBtn {
+  background: #444; /* رمادي */
+  color: #ffd700;   /* زهبي */
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background 0.3s;
+}
+
+#chatBtn:hover {
+  background: #ffd700;
+  color: black;
+}
+
+.chat-window {
+  display: none;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  background: #333;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+}
+
+.chat-window h3 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.chat-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chat-icons a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffd700;
+  background: #444;
+  padding: 5px;
+  transition: background 0.3s;
+}
+
+.chat-icons a img:hover {
+  background: #ffd700;
+}
+body {
+  font-family: "Tahoma", sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  background: #444; /* رمادي غامق */
+  color: #ffd700;   /* نص زهبي */
+}
